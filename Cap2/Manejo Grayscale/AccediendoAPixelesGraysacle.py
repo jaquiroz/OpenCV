@@ -7,6 +7,6 @@ gray_image = cv2.imread('logo.png', cv2.IMREAD_GRAYSCALE)
 
 #Se puede acceder a un pixel con los valore de fila y columna especificos
 i = gray_image[6,40]
-print("Pixel (6,40) - Intensidad ",i)
+print("Pixel (6,40) - Intensidad ", i)
 
 

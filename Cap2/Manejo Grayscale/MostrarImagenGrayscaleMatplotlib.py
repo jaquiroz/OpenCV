@@ -6,5 +6,5 @@ import matplotlib.pyplot as plt
 #en el segundo parametro se coloca el flag de grayscale
 gray_image = cv2.imread('logo.png', cv2.IMREAD_GRAYSCALE)
 
-plt.imshow(gray_image, cmap ='gray')
+plt.imshow(gray_image, cmap='gray')
 plt.show()

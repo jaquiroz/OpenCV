@@ -7,13 +7,13 @@ import matplotlib.pyplot as plt
 gray_image = cv2.imread('logo.png', cv2.IMREAD_GRAYSCALE)
 
 #Almacenando una region de la imagen en una variable
-top_left_corner = gray_image[0:50,0:50]
+top_left_corner = gray_image[0:50, 0:50]
 
 #Copiamos la region de interes a otra region de la imagen
 gray_image[20:70,20:70] = top_left_corner
 
 #Modificamos el borde superio izquierdo con blanco
-gray_image[0:50,0:50] = 255
+gray_image[0:50, 0:50] = 255
 
-plt.imshow(gray_image,cmap = 'gray')
+plt.imshow(gray_image, cmap='gray')
 plt.show()

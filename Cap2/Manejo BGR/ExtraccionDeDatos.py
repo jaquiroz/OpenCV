@@ -6,7 +6,7 @@ img = cv2.imread('logo.png')
 #Para obtener las dimensiones de la imagen usamos img.shape
 #esta funcion devuelve el numero de alto, ancho y canales en una variable tipo tupple
 dimensions  = img.shape
-print("Dimensiones: ",dimensions)
+print("Dimensiones: ", dimensions)
 #Asignamos los valores a variables independientes 
 (h,w,c)=img.shape
 print("Dimensiones de la imagen - Alto: {}, Ancho: {}, Canales: {}".format(h,w,c))
@@ -20,5 +20,5 @@ print("Total number of elements: ", total_numbers_of_elements)
 #EL datatype de la imagen es obtenida por la funcion .dtype
 #Es muy importante fijar el tipo correcto de .dtype
 image_dtype = img.dtype
-print("Tipo de imagen: ",image_dtype)
+print("Tipo de imagen: ", image_dtype)
 
